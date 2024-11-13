@@ -24,7 +24,7 @@ FFCコネクタは、使用するケーブルの種類（ストレート・反�
 ![FFC_reversed](/images/design/FFC_03.jpg)
 
 キーマトリクス側は、通常のキーボードと同様に設計してください。FFCケーブルで接続した場合、最大21本のGPIOを使用することが可能なので、キー数の多いキーボードやロータリーエンコーダにも十分に対応可能です。  
-![Keymatrix](/images/design/picot_O44_keymatrix.jpg)
+![Keymatrix](/images/design/picot_o44_keymatrix.jpg)
 
 ### PCB Design
 キーマトリクス基板側のFFCコネクタは、キーの間に設置することが可能です。スイッチソケットを扱う場合もキー間に設置可能です。  
@@ -32,13 +32,13 @@ FFCコネクタは、使用するケーブルの種類（ストレート・反�
 
 
 picot_O44のようにキーボードの中央にトラックボールを設ける場合、キーマトリクス基板の該当箇所に必要な開口を設けてください。  
-![PCB](/images/design/picot_O44_pcb.jpg)
+![PCB](/images/design/picot_o44_pcb.jpg)
 
 picot_O44のPCBには、picot5400のUSB Type-Cとの干渉を避けるための切り欠きが設けられています。設計上はPCBとUSB Type-Cは干渉しませんが、PCBが想定以上に撓んだ場合を想定して該当箇所を切り欠いています。  
-![PCB_USB](/images/design/picot_O44_pcb_usb.jpg)
+![PCB_USB](/images/design/picot_o44_pcb_usb.jpg)
 
 また、picot_O44のようにスタビライザーを固定するためにPCBが開口側にはみ出す場合もあります。その場合はボールケース（ベース）の切り欠きがある側をスタビライザー側になるように設計してください。
-![PCB_stabilizer](/images/design/picot_O44_stabilizer.jpg)
+![PCB_stabilizer](/images/design/picot_o44_stabilizer.jpg)
 
 ## Case Design
 picot5400は、キーボードのケースやボトムプレートなど、キーマトリクス基板から独立したものに固定することを推奨しています。これはキーの押下に伴う基板の揺れがセンサーとボールに伝わりにくくするためです。
