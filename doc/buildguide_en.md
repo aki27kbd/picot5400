@@ -28,40 +28,40 @@ When building a keyboard with picot5400, please refer to this page for the assem
   ***This process must be done before soldering. Please note that if the operation cannot be confirmed after soldering, it is not included in the initial defects.***  
 
   After confirming that the device is recognized as a USB device, install the mouse sensor. Install the mouse sensor on the board from the backside in the orientation shown in the image, and solder from the top surface. Make sure to align the ● mark on the silk with the ● mark on the board.   
-  ![picot5400_bg_pmw3360_1](/images/bg_pmw3360_1.jpg)
+  ![picot5400_bg_pmw3360_1](/images/build/bg_pmw3360_1.jpg)
 
   With the sensor legs firmly in place, secure them with masking tape so that they do not float. Solder 16 legs from the top side. ***Soldering must be done wiht the USB cable disconnected.***  
   Remove the tape attached on the sensor and attached the lens from the top.    
-  ![picot5400_bg_pmw3360_2](/images/bg_pmw3360_2.jpg)
+  ![picot5400_bg_pmw3360_2](/images/build/bg_pmw3360_2.jpg)
 
-  ![picot5400_bg_pmw3360_3](/images/bg_pmw3360_3.jpg)
+  ![picot5400_bg_pmw3360_3](/images/build/bg_pmw3360_3.jpg)
 
   Once the lens is attached, connect it to the USB again and confirm that the cursor moves by moving your hand over the top of the lens.
 
   After confirming that the sensor is working correctly, apply a soldering iron slightly to the protrusion of the lens from the back side to melt and fix the lens.
-  ![picot5400_bg_pmw3360_4](/images/bg_pmw3360_4.jpg)  
+  ![picot5400_bg_pmw3360_4](/images/build/bg_pmw3360_4.jpg)  
 
 ### Ball Case
 
 　Cut three pieces of the thinner silicone tubes about 3mm long. They can be easily cut with scissors, but be careful to keep the cut surfaces as flat as possible.  
-  ![picot5400_bg_ballcase_1](/images/bg_ballcase_1.jpg)  
+  ![picot5400_bg_ballcase_1](/images/build/bg_ballcase_1.jpg)  
 
   Pass stainless pins through cut-out silicone tubes.  
-  ![picot5400_bg_ballcase_2](/images/bg_ballcase_2.jpg)  
+  ![picot5400_bg_ballcase_2](/images/build/bg_ballcase_2.jpg)  
 
   Pass the bearing rollers through the outside of the silicone tubes and adjust them so that they are centered on the pins.  
-  ![picot5400_bg_ballcase_3](/images/bg_ballcase_3.jpg)  
+  ![picot5400_bg_ballcase_3](/images/build/bg_ballcase_3.jpg)  
 
   Attach the pins with bearing rollers to the three pedestals of the ball case base. Push them in from directly above until you hear them click into place. If the pins do not stick out from the base, it should be ok.
-  ![picot5400_bg_ballcase_4](/images/bg_ballcase_4.jpg)  
+  ![picot5400_bg_ballcase_4](/images/build/bg_ballcase_4.jpg)  
 
   Fix the spacers in the four corner below ball case base.  
-  ![picot5400_bg_ballcase_5](/images/bg_ballcase_5.jpg)  
+  ![picot5400_bg_ballcase_5](/images/build/bg_ballcase_5.jpg)  
 
   Put ball case base above picot5400. Put them above a case or a bottom plate depending on keyboards, fix them with screws from the bottom side. Please refer to the build guide of each keyboard for more information.  
-  ![picot5400_bg_ballcase_6](/images/bg_ballcase_6.jpg)  
+  ![picot5400_bg_ballcase_6](/images/build/bg_ballcase_6.jpg)  
 
-### Firmware
+## Firmware
 
   If you wish to write your own firmware, please follow the instructions below.
 
@@ -92,7 +92,7 @@ When building a keyboard with picot5400, please refer to this page for the assem
   `AM_TOG` |Toggle the function of auto mouse layer.
 
   Custom key codes can be set in vial using the custom key code under the User tab.  
-  ![CustomKeycode_rev](/images/bg_customkeycode.jpg)
+  ![CustomKeycode_rev](/images/build/bg_customkeycode.jpg)
 
 
 

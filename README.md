@@ -13,7 +13,7 @@ picot5400 is a micro controller (RP2040) and trackball sensor (PMW3360) module f
 - Bearing roller support with a smooth ball handling and easy assembly
 
 ## How to Use
-Please visit the docs for [consumers](doc/buildguid.md) and [designers](doc/designguide.md).
+Please visit the docs for [consumers](doc/buildguide.md) and [designers](doc/designguide.md).
 
 ## Previews
 

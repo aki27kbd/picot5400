@@ -32,41 +32,41 @@ picot5400を用いたキーボードを組み立てる際は、このページ�
 
   USB機器として認識されることが確認できたら、マウスセンサーを取り付けます。  
   センサー基板にマウスセンサー（PMW3360）を基板裏面から写真の向きに設置し、表面からはんだ付けを行います。シルクの●印と基板の●印の位置が合うように注意してください。    
-  ![picot5400_bg_pmw3360_1](/images/bg_pmw3360_1.jpg)
+  ![picot5400_bg_pmw3360_1](/images/build/bg_pmw3360_1.jpg)
 
   センサーの脚がしっかり奥まで入った状態で、浮かないようにマスキング テープなどで固定します。  
   表面から16本の脚をはんだ付けします。***はんだ付けは必ずUSBケーブルを外した状態で行ってください。***  
   センサーに貼られているテープを剥がし、表面からレンズを付けます。    
-  ![picot5400_bg_pmw3360_2](/images/bg_pmw3360_2.jpg)
+  ![picot5400_bg_pmw3360_2](/images/build/bg_pmw3360_2.jpg)
 
-  ![picot5400_bg_pmw3360_3](/images/bg_pmw3360_3.jpg)
+  ![picot5400_bg_pmw3360_3](/images/build/bg_pmw3360_3.jpg)
 
   レンズを取り付けたら、再度USBに接続し、レンズ上部に手をかざしてカーソルが動くことを確認してください。
 
   レンズが浮かないようにしっかりと差し込んだら、裏面からレンズの突起にはんだごてを少しあて、レンズを溶かして固定します。
-  ![picot5400_bg_pmw3360_4](/images/bg_pmw3360_4.jpg)  
+  ![picot5400_bg_pmw3360_4](/images/build/bg_pmw3360_4.jpg)  
 
 ### ボールケース
 
 　細い方のシリコンチューブを、3mm程度の長さで3本切ります。ハサミなどで簡単に切れますが、できるだけ切断面が真っすぐになるように注意してください。  
-  ![picot5400_bg_ballcase_1](/images/bg_ballcase_1.jpg)  
+  ![picot5400_bg_ballcase_1](/images/build/bg_ballcase_1.jpg)  
 
   ステンレス丸棒を切り出したシリコンチューブの中に通します。
-  ![picot5400_bg_ballcase_2](/images/bg_ballcase_2.jpg)  
+  ![picot5400_bg_ballcase_2](/images/build/bg_ballcase_2.jpg)  
 
   ベアリングローラーをシリコンチューブの外側に通し、チューブとベアリングがステンレス丸棒の中央に来るように調整します。
-  ![picot5400_bg_ballcase_3](/images/bg_ballcase_3.jpg)  
+  ![picot5400_bg_ballcase_3](/images/build/bg_ballcase_3.jpg)  
 
   ボールケース（ベース）の3本の台座に、ベアリングローラーをはめたステンレス丸棒を装着します。真上からカチッと音がするまで押し込んでください。ステンレス丸棒が台座から飛び出していなければOKです。
-  ![picot5400_bg_ballcase_4](/images/bg_ballcase_4.jpg)  
+  ![picot5400_bg_ballcase_4](/images/build/bg_ballcase_4.jpg)  
 
   ボールケース（ベース）の四隅下側にスペーサーを固定します。  
-  ![picot5400_bg_ballcase_5](/images/bg_ballcase_5.jpg)  
+  ![picot5400_bg_ballcase_5](/images/build/bg_ballcase_5.jpg)  
 
   picot5400の上にボールケースを重ねます。各キーボードのケースやボトムプレートに重ね、下からねじで固定します。詳細は各キーボードのビルドガイドを参照してください。  
-  ![picot5400_bg_ballcase_6](/images/bg_ballcase_6.jpg)  
+  ![picot5400_bg_ballcase_6](/images/build/bg_ballcase_6.jpg)  
 
-### ファームウェア
+## ファームウェア
 
   ご自分でファームを書き込む場合、下記手順の通り実行してください。
 
@@ -75,7 +75,7 @@ picot5400を用いたキーボードを組み立てる際は、このページ�
 
   キーマップは[vial](https://vial.rocks/)から更新可能です。  
   トラックボールの動作は後述のセンサー基板を組み立ててから行ってください。  
-  ![vial](/images/vial.jpg)
+  ![vial](/images/build/vial.jpg)
 
   デフォルトのファームウェアでは自動マウスレイヤー機能がオンになっています。この機能では、トラックボールを動かすと自動的にマウスレイヤー（レイヤー4）に移動することが可能です。カスタムキーコード（`AM_TOG`）を押すことで自動マウスレイヤー機能のオンオフを切り替えられます。
 
@@ -98,7 +98,7 @@ picot5400を用いたキーボードを組み立てる際は、このページ�
   `AM_TOG` |自動マウスレイヤー切り替えのオンオフを切り替えます。
 
   vialでカスタムキーコードを設定する場合はUserタブ下のカスタムキーコードを用いて設定することが可能です。  
-  ![CustomKeycode_rev](/images/bg_customkeycode.jpg)
+  ![CustomKeycode_rev](/images/build/bg_customkeycode.jpg)
 
 
 ## 終わりに
