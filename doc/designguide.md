@@ -27,7 +27,10 @@ FFCコネクタは、使用するケーブルの種類（ストレート・反�
 ![Keymatrix](/images/design/picot_o44_keymatrix.jpg)
 
 ### PCB Design
-キーマトリクス基板側のFFCコネクタは、キーの間に設置することが可能です。スイッチソケットを扱う場合もキー間に設置可能です。  
+キーマトリクス基板側のFFCコネクタは、KiCADのデフォルトライブラリに入っている「Hirose_FH12-24S-0.5SH_1x24-1MP_P0」を使用します。
+![Hirose_FH12-24S-0.5SH_1x24-1MP_P0](/images/design/Hirose_FH12-24S-0.5SH_1x24-1MP_P0.jpg)
+
+コネクタはキーの間に設置することが可能です。スイッチソケットを扱う場合もキー間に設置可能です。  
 ![picot_o44_ffc_connector](/images/design/picot_o44_ffc_connector.jpg)
 
 
